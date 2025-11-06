@@ -1,0 +1,174 @@
+/* Estilos Cyberpunk Base */
+body {
+    background-color: #0a0a0a;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    border: 2px solid #00ff00;
+    padding: 20px;
+    box-shadow: 0 0 15px #00ff00;
+}
+
+h1 {
+    text-align: center;
+    color: #ff00ff;
+    text-shadow: 0 0 5px #ff00ff;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.settings-btn {
+    background: none;
+    border: 1px solid #00ff00;
+    color: #00ff00;
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+}
+
+.settings-panel {
+    border: 1px dashed #ff00ff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.settings-panel h2 {
+    margin-top: 0;
+    color: #ff00ff;
+}
+
+.settings-panel input {
+    width: 100%;
+    background-color: #1a1a1a;
+    border: 1px solid #00ff00;
+    color: #00ff00;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.settings-panel p {
+    font-size: 0.8rem;
+    color: #008f00;
+}
+
+.save-btn {
+    background: none;
+    border: 1px solid #00ff00;
+    color: #00ff00;
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    display: block;
+}
+
+.debug-btn {
+    background: none;
+    border: 1px solid #ff00ff;
+    color: #ff00ff;
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    display: block;
+}
+
+.jarvis-console {
+    border: 1px solid #00ff00;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.jarvis-output {
+    height: 150px;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+    color: #00ff00;
+}
+
+.jarvis-console input {
+    background-color: transparent;
+    border: none;
+    border-top: 1px dashed #008f00;
+    color: #00ff00;
+    padding: 0.5rem 0;
+    width: 100%;
+    font-family: inherit;
+}
+
+.jarvis-console input:focus {
+    outline: none;
+}
+
+/* Agrega aquí más estilos para los inputs, botones y lista de tareas */
+.task-input-container {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+#task-input {
+    flex-grow: 1;
+    background-color: #1a1a1a;
+    border: 1px solid #00ff00;
+    color: #00ff00;
+    padding: 0.5rem;
+    font-family: inherit;
+}
+
+#task-input::placeholder {
+    color: #008f00;
+}
+
+#add-task-btn {
+    background-color: #1a1a1a;
+    border: 1px solid #ff00ff;
+    color: #ff00ff;
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+#task-list li {
+    list-style: none;
+    padding: 0.5rem 0;
+    border-bottom: 1px dashed #008f00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#task-list li.completed span {
+    text-decoration: line-through;
+    color: #008f00;
+}
+
+.task-buttons button {
+    background-color: transparent;
+    border: 1px solid;
+    padding: 0.2rem 0.5rem;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+
+.complete-btn {
+    color: #00ff00;
+    border-color: #00ff00;
+}
+
+.delete-btn {
+    color: #ff00ff;
+    border-color: #ff00ff;
+}
+
