@@ -7,21 +7,34 @@ const DiarioParaAdrian = () => {
     <div className="diario-container carta-container">
       <div className="diario-content carta-body">
         <h1>Diario para Adrián</h1>
-        <p>
-          A casi 4 años desde la última vez que te vi en persona y te pude abrazar, siento que he logrado muchas cosas aun con tanto dolor de estar lejos de ti, pero sentí que debía luchar por mis sueños y por los tuyos, bueno y por los de mamá también. A ella nunca la saco de mi vida, sigue siendo tu madre y como madre hay que respetarla; fue una muy buena compañera, quizás yo fui el que cometí más errores, y de eso tengo tanto que hablarte.
-        </p>
-        <p>
-          A tu madre la conocí en un evento que le llamábamos Rock Night, era un parche en el barrio de al lado, Asturias se llama. Allí conocí a tu madre, la recuerdo perfectamente cuando cruzó la mitad de la calle con sus amigos y yo pensé que era una gomelita más de ese barrio. Me impactó su cabello largo y negro como la noche, sus ojos y sus labios...
-        </p>
-        <p>
-          Esa noche terminé por conocerla porque cayó al parce. No tuve el valor para hablarle si no cuando ya estaba muy prendido, o muy "pedo" como dicen aquí. Aproveché que estaba sola un momento y me le senté al lado, le empecé a hablar de muchas cosas, hablamos de nuestras carreras, de arte, de diseño, y luego terminamos hablando de "Ami, el niño de las estrellas", de "El Principito", y de otros temas alucinados...
-        </p>
-        <p>
-          Hoy que estoy en Madrid después de salir del trabajo, a unos días de cumplir mis 37 años, te voy explicando el porqué de todo, mis razones para tomar las decisiones que he tomado y, más que eso, para que veas todo lo que me imagino para ti, y del porqué te hablo de todo. Como por ejemplo un anime que me estoy viendo por estos días que sé que te va a encantar, a mí me recuerda mucho a ti, se llama Dr. Stone. Se lo he dicho a tu madre pero me ha dicho que estás con consecuencias jajaja. De verdad hijo, le has arruinado el trabajo no guardado que tenía tu madre en su tableta, jajaja amor mío, una de las cosas en que le ayudaba a tu madre era a eso, a que tuviera a salvo su trabajo porque sé que le costaba la tecnología jajajaja, y de eso tenemos muchas historias. Pero por el amor de Dios hijo mío, ayúdala, no le borres cosas, no tomes cosas sin permiso, avisa de lo que vas a hacer, aprende a comunicar tus intereses con tu tremenda inteligencia. Eres tremendamente inteligente me dice la abuelita Gloria, y me lo creo y así mismo tú, eres tremendamente inteligente. Sé que lo vas a hacer muy bien, pase lo que pase, y sé que pronto estaremos juntos.
-        </p>
-        <p>
-          Y te mostraré las puertas del mundo que intento construir para ti, intento darte las herramientas necesarias para que vueles, navegues y explores este mundo, y descubras muchos más. Nunca pares de soñar y crear, sueña con las estrellas, con las galaxias. Sé que eres un artista, un poeta, un científico, un ingeniero... eres todo lo que quieras creerte que puedes lograr.
-        </p>
+        <div className="diario-entry">
+          <p className="diario-intro">
+            Este es un diario para ti, Adrián. Un lugar donde guardo mis pensamientos, mis luchas, mis ideas y mis esperanzas mientras trabajo para construir un futuro mejor para nosotros. Es un reflejo de mi viaje, un mapa de mi mente y mi corazón durante este tiempo en que estamos lejos.
+          </p>
+          <p className="diario-intro">
+            Espero que algún día, al leer esto, puedas entender un poco mejor a tu papá y el porqué de cada decisión.
+          </p>
+          <p className="diario-signature">Con todo mi amor, Papá.</p>
+        </div>
+        <hr className="diario-separator" />
+        <div className="diario-entry">
+          <h2 className="diario-date">17 de Noviembre de 2025</h2>
+          <p>
+            A casi 4 años desde la última vez que te vi en persona y te pude abrazar, siento que he logrado muchas cosas aun con tanto dolor de estar lejos de ti, pero sentí que debía luchar por mis sueños y por los tuyos, bueno y por los de mamá también. A ella nunca la saco de mi vida, sigue siendo tu madre y como madre hay que respetarla; fue una muy buena compañera, quizás yo fui el que cometí más errores, y de eso tengo tanto que hablarte.
+          </p>
+          <p>
+            A tu madre la conocí en un evento que le llamábamos Rock Night, era un parche en el barrio de al lado, Asturias se llama. Allí conocí a tu madre, la recuerdo perfectamente cuando cruzó la mitad de la calle con sus amigos y yo pensé que era una gomelita más de ese barrio. Me impactó su cabello largo y negro como la noche, sus ojos y sus labios...
+          </p>
+          <p>
+            Esa noche terminé por conocerla porque cayó al parce. No tuve el valor para hablarle si no cuando ya estaba muy prendido, o muy "pedo" como dicen aquí. Aproveché que estaba sola un momento y me le senté al lado, le empecé a hablar de muchas cosas, hablamos de nuestras carreras, de arte, de diseño, y luego terminamos hablando de "Ami, el niño de las estrellas", de "El Principito", y de otros temas alucinados...
+          </p>
+          <p>
+            Hoy que estoy en Madrid después de salir del trabajo, a unos días de cumplir mis 37 años, te voy explicando el porqué de todo, mis razones para tomar las decisiones que he tomado y, más que eso, para que veas todo lo que me imagino para ti, y del porqué te hablo de todo. Como por ejemplo un anime que me estoy viendo por estos días que sé que te va a encantar, a mí me recuerda mucho a ti, se llama Dr. Stone. Se lo he dicho a tu madre pero me ha dicho que estás con consecuencias jajaja. De verdad hijo, le has arruinado el trabajo no guardado que tenía tu madre en su tableta, jajaja amor mío, una de las cosas en que le ayudaba a tu madre era a eso, a que tuviera a salvo su trabajo porque sé que le costaba la tecnología jajajaja, y de eso tenemos muchas historias. Pero por el amor de Dios hijo mío, ayúdala, no le borres cosas, no tomes cosas sin permiso, avisa de lo que vas a hacer, aprende a comunicar tus intereses con tu tremenda inteligencia. Eres tremendamente inteligente me dice la abuelita Gloria, y me lo creo y así mismo tú, eres tremendamente inteligente. Sé que lo vas a hacer muy bien, pase lo que pase, y sé que pronto estaremos juntos.
+          </p>
+          <p>
+            Y te mostraré las puertas del mundo que intento construir para ti, intento darte las herramientas necesarias para que vueles, navegues y explores este mundo, y descubras muchos más. Nunca pares de soñar y crear, sueña con las estrellas, con las galaxias. Sé que eres un artista, un poeta, un científico, un ingeniero... eres todo lo que quieras creerte que puedes lograr.
+          </p>
+        </div>
       </div>
        <footer className="carta-footer">
         <Link to="/" className="back-link">&larr; Volver al Dashboard</Link>
